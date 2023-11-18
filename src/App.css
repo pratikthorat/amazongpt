@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  background-color: #121212;
+  max-width: 1012px;
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 16px !important;
+  padding-left: 16px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1,
+h3,
+p {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.dark-theme {
+  background-color: #121212;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Header Styles */
+.cred-header {
+  background-color: #1f1f1f;
+  padding: 20px;
+}
+
+.cred-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cred-logo img {
+  width: 120px;
+  height: auto;
+}
+
+.dark-input {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #444;
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-button {
+  padding: 8px 15px;
+  border: 1px solid #444;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Main Content Styles */
+.cred-main {
+  padding: 20px;
+}
+
+.cred-product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.cred-product-card {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #444;
+  background-color: #1f1f1f;
+  text-align: left;
+}
+
+.cred-product-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cred-product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Footer Styles */
+.cred-footer {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+}
+
+.cred-social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cred-social-media li {
+  display: inline-block;
+}
+
+.cred-social-media a {
+  color: #fff;
+}
+
+.product-details {
+  padding: 20px;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.product-review {
+  color: #fff;
+}
+
+.product-rating {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.rating {
+  font-weight: bold;
+}
+
+.stars {
+  color: #ffc107;
+  /* Star color */
+}
+
+.review-rating {
+  font-size: 14px;
+  margin-left: 8px;
+  color: green;
+}
+
+.review-text {
+  margin-bottom: 15px;
+}
+
+.pros,
+.cons {
+  margin-bottom: 15px;
+}
+
+.pros,
+.cons li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.pros li,
+.cons li {
+  margin-bottom: 5px;
+}
+
+.dark-button {
+  padding: 8px 15px;
+  border: 1px solid #444;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 5px;
 }
