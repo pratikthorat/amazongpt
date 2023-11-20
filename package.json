@@ -16,7 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run create-cname && gh-pages -d build",
+    "create-cname": "echo 'amazongpt.in' > build/CNAME",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,8 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "gh-pages-deploy": {
-    "cname": "amazongpt.in"
   }
 }
