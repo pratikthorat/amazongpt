@@ -52,6 +52,94 @@ function App() {
           </div>
           <div class="cred-product-card">
            <div class="cred-product-image">
+           <iframe title="craava" sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style={{ width: '120px', height: '240px' }} marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=megha1706-21&language=en_IN&marketplace=amazon&region=IN&placement=B09R21F8HV&asins=B09R21F8HV&linkId=d3a29fa382c9ffb3f05b984e2f6191c9&show_border=true&link_opens_in_new_window=true"></iframe>            </div>
+    <div class="product-details">
+              <h3>Craava Pull Up Bar Doorway for Home Workout No Screws Chin Up Bar with Locking Mechanism Max Load 200Kg Adjustable (70 to 100 CM)</h3>
+              <div class="product-review">
+                <div class="product-rating">
+                  <span class="rating">4.5</span>
+                  <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                  <span class="review-rating">This rating reflects the reviewer's opinion</span>
+                </div>
+                <div class="review-text">
+                  <p>As an avid home gym enthusiast, I'm always on the lookout for high-quality fitness equipment that elevates my workout routine. Recently, I had the opportunity to try out the Craava Pull Up Bar Doorway, and I must say, it's an exceptional addition to any home gym setup.</p>
+                  <h4>Features and Build</h4>
+                  <p>This pull-up bar is solidly built with a versatile adjustable feature (70 to 100 CM) that's like custom-tailoring for your door frame. No screws needed! Its robust locking mechanism (supports up to 200kg) gives you that reassuring hug of stability, making it feel like a trusty workout companion.</p>
+                  <h4>Installation and Usage</h4>
+                  <p>Setting up this bar is a no-fuss affair – no drills or screwdrivers required. It snugly fits into place, securely held by the locking system. Plus, the foam grips feel like a comforting pat on your hands, ensuring a comfortable workout experience.</p>
+               </div>
+                <h4>Pros</h4>
+                <ul>
+                  <li>Adjustable without hassle – fits various door frames.</li>
+                  <li>Sturdy locking mechanism provides a sense of security.</li>
+                  <li>No-damage installation – perfect for rental homes or shared spaces.</li>
+                  <li>Comfortable foam grips minimize hand strain during workouts.</li>
+                </ul>
+                <h4>Cons</h4>
+                <ul>
+                  <li>May not fit exceptionally wide or non-standard door frames.</li>
+                  <li>Requires doorway space, which might not be available in every home.</li>
+                </ul>
+                <h4>Overall Impression</h4>
+                 <p>From my perspective, the Craava Pull Up Bar ticks off the right boxes for a reliable workout partner. Its adaptability and robust build elevate the home gym experience, making it a feel-good investment for fitness enthusiasts.</p>
+                 <h4>Final Verdict</h4>
+                 <p>To sum it up, the Craava Pull Up Bar Doorway is a great addition to your home gym repertoire. It’s like finding that workout buddy who motivates you and supports your fitness journey. Just a heads-up, though – ensure your door frame fits the bill before you commit!</p>
+
+                <a href="https://amzn.to/47QOqxv" class="dark-button">Buy Now</a>
+              </div>
+            </div>
+          </div>
+            <div class="cred-product-card">
+           <div class="cred-product-image">
+            <iframe title="braunface" sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style={{ width: '120px', height: '240px' }} marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=megha1706-21&language=en_IN&marketplace=amazon&region=IN&placement=B08J4NMBL2&asins=B08J4NMBL2&linkId=b750d1065ea0fcb5733968d891f444ed&show_border=true&link_opens_in_new_window=true"></iframe>
+            </div>
+    <div class="product-details">
+              <h3>Braun Face Mini Hair Remover FS1000, Electric Facial Hair Removal for Women, Quick, Gentle & Painless, Smooth Skin, Ideal for On-The-Go, with Smartlight</h3>
+              <div class="product-review">
+                <div class="product-rating">
+                  <span class="rating">4.3</span>
+                  <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                  <span class="review-rating">This rating reflects the reviewer's opinion</span>
+                </div>
+                <div class="review-text">
+                     <p>Growing up, I've always been self-conscious about my facial hair. As a young girl, I would try to hide it by plucking my eyebrows and using harsh hair removal creams that left my skin feeling red and irritated. It wasn't until I discovered the Braun Face Mini Hair Remover FS1000 that I finally found a solution that worked for me.</p>
+          <p>This compact and discreet device has become my secret weapon for achieving flawless skin. It's gentle enough to use on even the most sensitive skin, and it effectively removes even the finest hairs without causing any discomfort or irritation. I love how easy it is to use – just glide the trimmer head over the area you want to treat, and the Smartlight illuminates even the tiniest hairs, ensuring that you don't miss a spot.</p>
+          <p>Since I started using the Braun Face Mini Hair Remover FS1000, I've noticed a significant improvement in my skin's texture and appearance. My complexion is smoother and more even-toned, and I no longer feel the need to hide behind makeup. This device has given me the confidence to embrace my natural beauty, and I'm so grateful for it.</p>
+          <p>As a young girl in her 20s, I understand the importance of self-care and feeling good about yourself. The Braun Face Mini Hair Remover FS1000 has not only helped me achieve the clear, smooth skin I've always wanted, but it's also boosted my self-esteem and made me feel more confident in my own skin. I highly recommend this device to any woman looking for a quick, painless, and irritation-free way to remove facial hair.</p>
+          <p>Here are some of the things I love most about the Braun Face Mini Hair Remover FS1000:</p>
+          <ul>
+              <li>Gentle and effective hair removal</li>
+              <li>Ideal for sensitive skin</li>
+              <li>Precision trimming head</li>
+              <li>Smartlight for illumination</li>
+              <li>Washable trimmer head</li>
+              <li>Compact and portable</li>
+              <li>Battery-operated</li>
+          </ul>
+          <p>If you're looking for a gentle and effective facial hair remover that will leave your skin feeling smooth and hair-free, the Braun Face Mini Hair Remover FS1000 is the perfect choice for you. It's easy to use, convenient, and affordable, and it's given me the confidence to embrace my natural beauty.</p>
+                </div>
+                <h4>But don't just take my word for it. Let me tell you why I love this device so much:</h4>
+                <ul class="pros">
+                 <ul>
+              <li>It's incredibly gentle. I've used it on my upper lip, chin, and eyebrows without any problems.</li>
+              <li>It's super effective. It removes even the tiniest hairs, leaving my skin feeling smooth and hair-free.</li>
+              <li>It's easy to use. Just glide the trimmer head over the area you want to treat, and the Smartlight illuminates even the smallest hairs.</li>
+              <li>It's portable. It's small and lightweight, so I can take it with me wherever I go.</li>
+              <li>It's battery-operated. No cords, no charging hassles.</li>
+          </ul>
+                </ul>
+                <h4>Now, let's talk about the things I'd like to see improved:</h4>
+                <ul class="cons">
+                <li>It may require multiple passes for thicker hair. For those with heavier hair growth, you may need to go over the area more than once to achieve a smooth finish.</li>
+              <li>Not suitable for all skin types. While generally gentle on sensitive skin, those with extremely sensitive or reactive skin may experience some irritation.</li>
+              <li>Requires regular maintenance. To keep the device in optimal condition, regular cleaning of the trimmer head is essential.</li>
+                </ul>
+                <a href="https://amzn.to/3QNr9pe" class="dark-button">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="cred-product-card">
+           <div class="cred-product-image">
             <iframe title="braunface" sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style={{ width: '120px', height: '240px' }} marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=megha1706-21&language=en_IN&marketplace=amazon&region=IN&placement=B08J4NMBL2&asins=B08J4NMBL2&linkId=b750d1065ea0fcb5733968d891f444ed&show_border=true&link_opens_in_new_window=true"></iframe>
             </div>
     <div class="product-details">
