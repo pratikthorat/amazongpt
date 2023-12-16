@@ -1,6 +1,4 @@
 import './App.css';
-import ProductCard from './components/ProductCard';
-import { productData } from './productData/data';
 
 function App() {
   return (
@@ -52,9 +50,6 @@ function App() {
               </div>
             </div>
           </div>
-          {productData.map((product, index) => (
-            <ProductCard key={index} product={product} />
-          ))}
           <div class="cred-product-card">
            <div class="cred-product-image">
            <iframe title="craava" sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style={{ width: '120px', height: '240px' }} marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=megha1706-21&language=en_IN&marketplace=amazon&region=IN&placement=B09R21F8HV&asins=B09R21F8HV&linkId=d3a29fa382c9ffb3f05b984e2f6191c9&show_border=true&link_opens_in_new_window=true"></iframe>            </div>
