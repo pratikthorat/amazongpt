@@ -1,15 +1,15 @@
 import React from 'react';
 import { styled } from 'styled-components';
 
-const ProductReview = () => {
+const ProductReview = ({reviewText, rating}) => {
     return (
       <ProductReviewWrapper className="product-review">
         <ProductRating className="product-rating">
-          <Rating className="rating">4.5</Rating>
-          <Stars className="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</Stars>
+          <Rating className="rating">{rating}</Rating>
+          <Stars className="stars" dangerouslySetInnerHTML={{ __html: "&#9733;".repeat(Math.floor(rating))}}/>
           <ReviewRating className="review-rating">This rating reflects the reviewer's opinion</ReviewRating>
         </ProductRating>
-        {/* Add other content within the product review */}
+        <ReviewText dangerouslySetInnerHTML={{ __html: reviewText }} />
       </ProductReviewWrapper>
     );
   };
@@ -17,25 +17,35 @@ const ProductReview = () => {
 const ProductCard = ({ product }) => {
   return (
     <ProductCardWrapper>
+      <ProductIframeWrapper>
         <ProductIframe
           title="craava"
           sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
           style={{ width: '120px', height: '240px' }}
           marginwidth="0"
           marginheight="0"
-          scrolling="no"
           frameborder="0"
-          src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=megha1706-21&language=en_IN&marketplace=amazon&region=IN&placement=B09R21F8HV&asins=B09R21F8HV&linkId=d3a29fa382c9ffb3f05b984e2f6191c9&show_border=true&link_opens_in_new_window=true"
-        ></ProductIframe>
+          src={product.iframeSrc}
+          ></ProductIframe>
+      </ProductIframeWrapper>
       <ProductDetails>
-        <ProductTitle>Craava Pull Up Bar Doorway for Home Workout No Screws Chin Up Bar with Locking Mechanism Max Load 200Kg Adjustable (70 to 100 CM)</ProductTitle>
-        <ProductReview>
-          {/* Your product review content here */}
-        </ProductReview>
+        <ProductTitle>{product.title}</ProductTitle>
+        <ProductReview reviewText={product.reviewText} rating={product.rating}/>
         <ProsCons>
-          {/* Your pros and cons content here */}
+          <h3>Pros:</h3>
+          <ul>
+          {product.pros.map((pro, index) => (
+            <li key={index}>{pro}</li>
+          ))}
+          </ul>
+          <h3>Cons:</h3>
+          <ul>
+          {product.cons.map((con, index) => (
+            <li key={index}>{con}</li>
+          ))}
+          </ul>
         </ProsCons>
-        <DarkButton href="https://amzn.to/47QOqxv">
+        <DarkButton onClick={ () => window.open(product.buyButtonUrl, '_blank')}>
           Buy Now
         </DarkButton>
       </ProductDetails>
@@ -49,6 +59,12 @@ const ProductCardWrapper = styled.div`
     border: 1px solid #444;
     background-color: #1f1f1f;
     text-align: left;
+`;
+
+const ProductIframeWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
 `;
 
 const ProductIframe = styled.iframe`
@@ -73,10 +89,10 @@ const Rating = styled.span`
 
 const Stars = styled.span`
   color: #ffc107;
-  /* Star color */
+  margin-left: 8px;
 `;
 
-const ReviewRating = styled.div`
+const ReviewRating = styled.span`
   font-size: 14px;
   margin-left: 8px;
   color: green;
@@ -87,7 +103,14 @@ const ReviewText = styled.div`
 `;
 
 const ProsCons = styled.div`
+  color: #fff;  
   margin-bottom: 15px;
+  li {
+    color: #fff;
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
 `;
 
 const ProductTitle = styled.h3`
@@ -100,13 +123,10 @@ const ProductReviewWrapper = styled.div`
 
 const DarkButton = styled.button`
   padding: 8px 15px;
-  border: 1px solid #444;
   background-color: #555;
   color: #fff;
-  text-decoration: none;
-  display: inline-block;
   margin-top: 15px;
-  border-radius: 5px;
+  cursor: pointer;
 `;
 
 export default ProductCard;
