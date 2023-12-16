@@ -152,14 +152,10 @@ p {
   margin-bottom: 15px;
 }
 
-.pros,
+.pros li,
 .cons li {
   list-style-type: disc;
   margin-left: 20px;
-}
-
-.pros li,
-.cons li {
   margin-bottom: 5px;
 }
 
