@@ -144,7 +144,7 @@ const CTAButton = styled.button`
 
 export const HeroSection = () => (
   <HeroContainer>
-    <Headline>Earn Cashback on Every Amazon Purchase!</Headline>
+    <Headline>Earn Cashback on Every Amazon India Purchase!</Headline>
     <Subheadline>
       Shop through our platform and save on every purchase
     </Subheadline>
